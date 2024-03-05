@@ -6,33 +6,34 @@
                     blog</h2>
             </div>
             <div class="text-2xl md:text-end">
-                <a href="/blog" class="text-primary hover:text-parimary hover:underline">View all posts</a>
+                <a href="/blog" class="text-primary hover:text-secondary hover:underline">View all posts</a>
             </div>
         </div>
         <div class="flex justify-center">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 w-full lg:w-4/5">
                 {{ range ( first 2 ( where .Paginator.Pages "Type" "blog" ) ) }}
-                <div class="shadow border">
-                    <a href="{{.RelPermalink}}">
+                <div class="max-w-sm bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="{{ .RelPermalink }}">
                         {{ $featured := .Params.featuredImage }}
                         {{ with .Resources.GetMatch $featured }}
-                        {{ $postimage := (.Resize "600x webp q100").RelPermalink }}
-                        <img src="{{ $postimage }}" class="w-full" alt="{{ .Params.description }}"
-                            title="{{ .Params.description }}" />
+                            {{ $postimage := (.Resize "600x webp q100").RelPermalink }}
+                            <img class="rounded-t-lg" src="{{ $postimage }}" alt="{{ .Params.description }}" title="{{ .Params.description }}" />
                         {{ end }}
-                        <div class="py-6 px-5 xl:py-8">
-                            <h4 class="block font-body text-lg font-semibold text-heading hover:text-primaryHover">
-                                {{.Title}}</h4>
-                            <p class="block pt-2 text-body">{{ .Summary | truncate 200 }}</p>
-    
-                        </div>
-                        <div class="pt-2 pb-4 px-5">
-                            <a href="{{ .RelPermalink }}" class="uppercase text-primary hover:text-primaryHover">Read
-                                More
-                                <i class="fas fa-arrow-right"></i></a>
-                        </div>
                     </a>
+                    <div class="p-5">
+                        <a href="{{ .RelPermalink }}">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">{{ .Title }}</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white dark:text-gray-400">{{ .Summary | truncate 200 }}</p>
+                        <a href="{{ .RelPermalink }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dark bg-primary rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Read more
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
+                
                 {{ end }}
     
             </div>
