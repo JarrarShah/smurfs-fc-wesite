@@ -13,10 +13,10 @@ module.exports = {
         padding: '2rem',
       },
       colors: {
-        primary: '#ff6315',
-        secondary: '#004064',
+        primary: '#FEC104',
+        secondary: '#FFFFFF',
         neutral: '#306BAC',
-        dark: '#0A1045',
+        dark: '#232323',
         darksecondary: '#56445D',
         hoverprimary: '#E45310',
         green: '#56E39F',

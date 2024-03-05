@@ -25,4 +25,4 @@ For the Anglesey Arms, our client needed a complete signage overhaul to reflect 
 - Sign painting on the gable.
 - Creation and installation of a large oak post pictorial sign.
 
-Choose Parkinson Signs for all your signage needs, and let us transform your brand's visual identity with our expertise and attention to detail.
+Choose Cab Connects for all your signage needs, and let us transform your brand's visual identity with our expertise and attention to detail.
