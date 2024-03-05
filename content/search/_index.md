@@ -1,7 +1,7 @@
 ---
 title: "Search Results"
 draft: false
-description : "Search Results For Parkinson Signs"
+description : "Search Results For Cab Connects"
 sitemap:
   priority : 0.1
 layout: "search"
