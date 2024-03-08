@@ -5,7 +5,7 @@ draft: false
 description: "Explore Cab Connects's premium sigange solutions for businesses across UK"
 author: ""
 featuredImage: ""
-image: "images/parkinson-signs-og.jpg"
-images: ["images/parkinson-signs-og.jpg"]
+image: "images/og-cabconnects.png"
+images: ["images/og-cabconnects.png"]
 # keywords: "Blog, Cab Connects, Metal Fabrication, Stainless Steel, news"
 ---

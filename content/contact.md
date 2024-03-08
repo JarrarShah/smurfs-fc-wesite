@@ -6,7 +6,7 @@ language: en
 description: Contact Cab Connects
 type: page
 layout: contact
-image: "images/parkinson-signs-og.jpg"
-images: ["images/parkinson-signs-og.jpg"]
+image: "images/og-cabconnects.png"
+images: ["images/og-cabconnects.png"]
 keywords: "Cab Connects, contact, email form, Our Location"
 ---

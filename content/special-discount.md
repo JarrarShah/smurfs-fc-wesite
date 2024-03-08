@@ -6,6 +6,6 @@ language: en
 description: Cab Connects delivers high quality signs
 type: page
 layout: special-discount
-image: "images/parkinson-signs-og.jpg"
-images: ["images/parkinson-signs-og.jpg"]
+image: "images/og-cabconnects.png"
+images: ["images/og-cabconnects.png"]
 ---
