@@ -1,8 +1,39 @@
 {{ define "main" }}
 
 <main>
+  {{ $bgimage := (resources.Get "images/cab-connects-about-us.png").RelPermalink }}
+  <section
+    class="relative table w-full pb-0 lg:pb-0 bg-slate-800 bg-[url('{{ $bgimage }}')] bg-center bg-no-repeat bg-cover"
+    style="background-image: url('{{$bgimage}}');">
+    <div class="container px-4 mx-auto max-w-screen-xl">
+      <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+        <div class="lg:col-span-7">
+          <div class="md:mt-20 md:mb-20 mt-12">
+            <h1 class="h1 font-semibold  mb-5 text-white">About Cab Connects</h1>
+            <p class="pr-0 my-8 text-base text-white lg:pr-20">Your Trusted Call Center for Reliable Taxi and Cab Dispatch Services, Committed to Excellence </p>
+            <div class="mt-20">
+              <div class="flex flex-wrap -m-2.5 mb-20">
 
-  <section>
+
+              </div>
+            </div>
+          </div>
+        </div><!--end col-->
+
+        <div class="lg:col-span-5 mt-8 md:mt-0">
+          {{ with resources.Get "images/sales-man.png" }}
+          {{ $small := (.Resize "400x webp q80").RelPermalink }}
+          {{ $medium := (.Resize "550x webp q80").RelPermalink }}
+          {{ $large := (.Resize "900x webp q80").RelPermalink }}
+          {{ $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
+          <img src="{{ $featuredimage }}" srcset="" alt="">
+          {{end}}
+        </div><!--end col-->
+      </div><!--end grid-->
+    </div><!--end container-->
+  </section>
+
+  <!-- <section>
     <div class="mx-auto max-w-screen-xl px-6 pt-8 md:pt-14 lg:pt-20">
       <h1
         class="pb-4 h1 font-poppins text-secondary tracking-snug leading-tight sm:leading-tight md:leading-tight lg:leading-tight md:text-center">
@@ -17,52 +48,58 @@
               d="M.835 7.23c-.264-.864-.033-1.753.708-2.42.91-.758 2.285-.742 3.1.09l.112.124a9.767 9.767 0 006.37 3.34c2.362.24 4.745-.389 6.631-1.785l.254-.195c.186-.132.367-.283.548-.442l.557-.494c.096-.083.194-.166.295-.247l.58-.527c.702-.632 1.495-1.31 2.412-1.835 2.201-1.24 4.914-1.629 7.719-1.101 2.083.433 4.232 1.286 6.575 2.773 1.087.674 1.395 2.09.702 3.12-.674 1.088-2.09 1.395-3.12.703-1.932-1.172-3.533-1.878-5.068-2.164-1.743-.348-3.385-.161-4.603.589-.565.314-1.09.758-1.63 1.242l-.546.493-1.635 1.444c-2.854 2.194-6.555 3.263-10.183 2.925-3.57-.356-7.01-2.137-9.36-4.88a1.922 1.922 0 01-.418-.753zM93.541 4.686c.38.828.24 1.815-.424 2.521-.843.95-2.348.97-3.297.127-1.86-1.76-4.35-2.698-6.806-2.702a9.87 9.87 0 00-6.533 2.539l-.238.223a6.299 6.299 0 00-.628.648l-.418.49c-.073.085-.148.171-.226.258l-.82.908c-.566.62-1.183 1.257-1.933 1.822-2.056 1.51-4.796 2.221-7.703 1.977-2.204-.207-4.415-.853-7.01-2.136-1.185-.582-1.665-1.946-1.083-3.13.502-1.12 1.829-1.623 2.93-1.135l.143.069c2.069 1.004 3.807 1.542 5.364 1.695 1.806.14 3.452-.237 4.635-1.102.66-.517 1.326-1.223 1.973-1.988l.732-.822c.253-.281.512-.565.776-.834C75.59 1.552 79.225.063 82.92.003 86.633 0 90.273 1.405 92.95 3.986c.3.16.503.412.591.7z">
             </path>
             <g>
-              <path
+               <path
                 d="M112.835 7.23c-.264-.864-.033-1.753.708-2.42.91-.758 2.285-.742 3.1.09l.112.124a9.767 9.767 0 006.37 3.34c2.362.24 4.745-.389 6.631-1.785l.254-.195c.186-.132.367-.283.548-.442l.557-.494c.096-.083.194-.166.295-.247l.58-.527c.702-.632 1.495-1.31 2.412-1.835 2.201-1.24 4.914-1.629 7.719-1.101 2.083.433 4.232 1.286 6.575 2.773 1.087.674 1.395 2.09.702 3.12-.674 1.088-2.09 1.395-3.12.703-1.932-1.172-3.533-1.878-5.068-2.164-1.743-.348-3.385-.161-4.603.589-.565.314-1.09.758-1.63 1.242l-.546.493-1.635 1.444c-2.854 2.194-6.555 3.263-10.183 2.925-3.57-.356-7.01-2.137-9.36-4.88a1.922 1.922 0 01-.418-.753zM203.541 4.686c.38.828.24 1.815-.424 2.521-.843.95-2.348.97-3.297.127-1.86-1.76-4.35-2.698-6.806-2.702a9.87 9.87 0 00-6.533 2.539l-.238.223a6.299 6.299 0 00-.628.648l-.418.49c-.073.085-.148.171-.226.258l-.82.908c-.566.62-1.183 1.257-1.933 1.822-2.056 1.51-4.796 2.221-7.703 1.977-2.204-.207-4.415-.853-7.01-2.136-1.185-.582-1.665-1.946-1.083-3.13.502-1.12 1.829-1.623 2.93-1.135l.143.069c2.069 1.004 3.807 1.542 5.364 1.695 1.806.14 3.452-.237 4.635-1.102.66-.517 1.326-1.223 1.973-1.988l.732-.822c.253-.281.512-.565.776-.834 2.615-2.562 6.25-4.051 9.946-4.111 3.712-.002 7.352 1.402 10.029 3.983.3.16.503.412.591.7z">
               </path>
             </g>
           </g>
         </svg>
       </div>
-    </div><!--end container-->
-  </section>
+    </div>
+  </section> -->
 
 
   <section>
     <div class="relative my-4 mb-20">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8 items-center">
+        <div class="flex justify-center relative mt-0 md:mt-12">
+          <!-- First Image -->
+          {{ $missionimage := resources.Get "images/about/1.png" }}
+          {{ with $missionimage }}
+          {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+          <img src="{{ .RelPermalink }}"
+              class="object-cover w-1/2 h-full rounded shadow-lg border-white border-4 border-white"
+              alt="First Image" loading="lazy" />
+          {{ end }}
+          {{ end }}
+      
+          <!-- Second Image -->
+          {{ $secondImage := resources.Get "images/about/2.png" }}
+          {{ with $secondImage }}
+          {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+          <img src="{{ .RelPermalink }}"
+              class="object-cover h-40 md:h-full md:w-1/2 h-full rounded shadow-lg border-white border-4 absolute -bottom-32 right-8 z-10 hidden md:block"
+              alt="Second Image" loading="lazy" />
+          {{ end }}
+          {{ end }}
+      </div>
+      
 
-        <div class="relative sm:py-8 lg:py-0">
-          <div
-            class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 mt-2 md:mt-20">
-            <div class="relative overflow-hidden rounded-2xl hover:contrast-125">
-              {{ $missionimage := resources.Get "images/parkinsonsigns.jpg" }}
-              {{ with $missionimage }}
-              {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
-              <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
-                class="object-cover w-full h-full rounded-full shadow-lg border-b-stone-200 items-center"
-                alt="About Cab Connects" loading="lazy" />
-              {{ end }}
-              {{ end }}
-            </div>
-          </div>
-        </div>
 
 
-        <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+
+
+
+        <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 text-white">
           <!-- Content area -->
           <div class="md:pt-12 sm:pt-6 lg:pt-20">
             <h2
               class="relative mb-4 text-secondary h2 font-bold tracking-tight mb-12 md:mt-6 mt-0 pt-6 leading-tight font-poppins">
-              Specialists in <span class="font-semibold text-primary">Sign Board Designing <span class="text-secondary">and</span> Making </span></h2>
+              Streamlining <span class="underline">Dispatch Services </span>for Passenger Transportation: Welcome to <span class="text-primary">Cab</span> Connects</h2>
             <div class="mt-6 space-y-6">
-              <p class="text-base leading-tight mb-12">At Cab Connects, we pride ourselves as the Specialists in Sign
-                Board Designing and Making. With a wealth of experience and a dedicated team of experts, we bring a deep
-                understanding of the art and science behind creating impactful signage. Our commitment to excellence
-                extends from the initial concept and design phase to the meticulous craftsmanship in our manufacturing
-                process. Whether you require eye-catching storefront signs, informative directional boards, or any other
-                signage solution, our specialized approach ensures that your unique vision is brought to life with
-                precision and flair
+              <p class="text-base leading-tight mb-12">At Cab Connects, we understand the fundamental importance of efficient dispatch services in the realm of passenger transportation. Our mission is to streamline operations and alleviate the burdens associated with staffing challenges. Through our innovative platform, we provide transportation businesses with a seamless solution that enhances productivity and reduces turnover rates. By leveraging cutting-edge technology and intuitive interfaces, Cab Connects empowers companies to optimize resource allocation and improve communication, ultimately fostering a more cohesive and productive work environment.
+
+                With a steadfast commitment to excellence, Cab Connects is more than just a software solution; it's a catalyst for positive change in the transportation industry. We believe in the power of innovation to transform challenges into opportunities and to create a future where every journey is seamless, efficient, and enjoyable. Join us as we redefine the standards of dispatch services and pave the way for a brighter, more connected future for passengers and providers alike. Welcome to Cab Connects, where every connection counts.
               </p>
 
             </div>
@@ -77,30 +114,25 @@
 
 
   <!-- component -->
-  <section class="bg-gray-100 dark:bg-gray-800 border-t">
+  <section class="">
 
     <div class="container px-6 py-10 mx-auto space-y-6 lg:py-16 lg:flex-row lg:items-center">
-      <div class="flex items-center flex-col lg:flex-row">
+      <div class="flex justify-center items-center flex-col lg:flex-row">
         <div class="w-full lg:w-1/2">
           <div class="lg:max-w-lg">
             <h2 class="h2 tracking-tight text-secondary">
               Cab Connects Limited
             </h2>
 
-            <p class="text-left text-dark text-base mt-4">
-              Cab Connects, carries a rich legacy dating back to its establishment in
-              1946. As a family-owned and operated business, we have consistently upheld a tradition of excellence in
-              the world of signage. Our expertise spans the entire spectrum of sign-related services, encompassing
-              top-tier design, precise manufacturing, seamless installation, and meticulous maintenance.
+            <p class="text-left text-white text-base mt-4">
+              With over a decade of collective experience in the taxi industry, the team behind Cab Connects recognized a significant pain point shared by owners and managers across the passenger transportation sector: the perpetual challenge of hiring and retaining skilled dispatch staff. Across various transportation services, including taxis, limousines, and charter buses, the search for competent dispatchers proved to be an enduring struggle, often resulting in operational disruptions and financial strain.            </p>
+            <p class="text-left text-white text-base mt-4">
 
+              Reflecting on these challenges, the team identified a recurring pattern of hiring and training staff only to witness their departure shortly thereafter. This cycle incurred substantial expenses, encompassing job advertising, interviewing, onboarding, and training efforts. Despite these investments, turnover rates remained persistently high, posing a consistent obstacle to industry efficiency and stability.
             </p>
-            <p class="text-left text-dark text-base mt-4">
+            <p class="text-left text-white text-base mt-4">
 
-              With a strong presence across the UK, we cater to a diverse clientele, ranging from single, one-off
-              contracts to comprehensive nationwide installations for both national accounts and individual projects.
-              Our commitment to quality extends beyond installation, as we also offer maintenance contracts to ensure
-              that all types of signs remain in optimal condition. At Cab Connects, we take pride in our decades-long
-              experience and unwavering dedication to delivering outstanding sign solutions that stand the test of time.
+              Motivated by a shared commitment to innovation and improvement, the team embarked on a mission to transform the dispatch services landscape. Their vision materialized in the form of Cab Connects, a groundbreaking platform designed to revolutionize the way dispatch services are managed and delivered.
             </p>
           </div>
 
@@ -108,7 +140,7 @@
 
         <div class="flex items-center justify-center w-full h-96 lg:w-1/2 pt-12 md:pt-0">
 
-          {{ with resources.Get "images/parkinson_signs_outlet.jpg" }}
+          {{ with resources.Get "images/about/cab-connects about.png" }}
           {{ $small := (.Resize "400x webp q80").RelPermalink }}
           {{ $medium := (.Resize "550x webp q80").RelPermalink }}
           {{ $large := (.Resize "900x webp q80").RelPermalink }}
@@ -118,7 +150,7 @@
               {{- with $medium -}}, {{.}} 550w{{- end -}}
               {{- with $large -}}, {{.}} 768w{{- end -}}
               {{- with $featuredimage -}}, {{.}} 1100w{{- end -}}"
-            class="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" alt="About Cab Connects Systems" />
+            class="object-cover w-1/2 mx-auto rounded-md lg:max-w-2xl" alt="About Cab Connects Systems" />
           {{ end }}
         </div>
       </div>
@@ -291,14 +323,14 @@
         <div class="w-3/6 justify-end">
           <div
             class="relative table border-amber-400 rounded-2xl w-full pb-0 lg:pb-0 justify-center text-center bg-gray-100">
-            <h4 class="p-6 text-xl md:text-2xl xl:text-3xl font-semibold text-dark text-center"> Countries Served</h4>
+            <h4 class="p-6 text-xl md:text-2xl xl:text-3xl font-semibold text-white text-center"> Countries Served</h4>
             <p class="p-6 text-8xl grow font-bold text-center" style="color:#FE590F;">25</p>
           </div>
         </div>
         <div class="w-3/6 justify-end">
           <div
             class="relative table border-amber-400 rounded-2xl w-full pb-0 lg:pb-0 justify-center text-center bg-gray-50">
-            <h4 class="p-6 text-xl md:text-2xl xl:text-3xl font-semibold text-dark text-center">Stations installed
+            <h4 class="p-6 text-xl md:text-2xl xl:text-3xl font-semibold text-white text-center">Stations installed
             </h4>
             <p class="p-6 text-8xl grow font-bold text-center" style="color:#FE590F;">68</p>
           </div>
@@ -311,7 +343,7 @@
       <div class="flex flex-col lg:flex-row mt-12 items-center justify-center gap-6">
         <div class="w-full">
           <h2
-            class="text-3xl font-bold tracking-tight text-dark sm:text-4xl text-center mt-12">
+            class="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center mt-12">
             Supporting our <span style="color:#FE590F" class="font-semibold ">Spinning Disc
               Installations</span> around the World</h2>
         </div>

@@ -104,3 +104,27 @@ EmojiSymbols;
 .navheading {
     @apply text-sm md:text-lg font-semibold text-white hover:text-primary focus:text-white
 }
+
+/* Scrollbar custom */
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+      width: 12px;
+      height: 20px;
+    }
+  
+    .scrollbar::-webkit-scrollbar-track {
+      border-radius: 5px;
+      background: #212121;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb {
+      background: #757575;
+      border-radius: 5px;
+      border: 1px solid #616161;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #616161;
+    }
+  }
