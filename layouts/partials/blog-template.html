@@ -4,7 +4,7 @@
 
         {{ range .Paginator.Pages }}
 
-        <article class="flex flex-col shadow my-4">
+        <article class="flex flex-col text-white bg-gradient-to-b from-gray-900 to-dark border text-white border-gray-200 rounded-lg shadow my-4">
             <!-- Article Image -->
             <a href="{{.RelPermalink}}" class="hover:opacity-75">
                 {{ with .Resources.GetMatch .Params.featuredImage }}
@@ -18,19 +18,19 @@
                 {{ end }}
 
             </a>
-            <div class="bg-white flex flex-col justify-start p-6">
+            <div class="flex flex-col justify-start p-6">
                 <div class="flex">
                     {{ range $elem_index, $elem_val := (.GetTerms "tags") }}
                     <a href="{{.RelPermalink}}" class="uppercase pb-4 pr-4"><span
-                            class="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 ml-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{
+                            class="inline-flex items-center rounded-md bg-primary px-2 py-1 ml-1 text-xs font-bold hover:text-primary hover:bg-white text-black ring-1 ring-inset ring-gray-500/10">{{
                             .LinkTitle }}</span> </a>
                     {{- end -}}
                 </div>
                 <a href="{{.RelPermalink}}" class="hover:text-primary pb-4">
-                    <h4 class="h4">{{.Title}}</h4>
+                    <h4 class="h3">{{.Title}}</h4>
                 </a>
                 <p href="#" class="text-sm pb-3">
-                    By <span class="font-semibold hover:text-gray-800">{{ .Params.author }},</span>
+                    By <span class="font-semibold">{{ .Params.author }},</span>
                     Published on <time datetime="January 2, 2006">{{.Date.Format "January 2, 2006"}}</time>
 
                 </p>
