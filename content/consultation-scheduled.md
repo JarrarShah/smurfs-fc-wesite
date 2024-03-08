@@ -6,8 +6,8 @@ sitemapExclude: true
 language: en
 description: ""
 keywords: "Cab Connects"
-image: "images/parkinson-signs-og.jpg"
-images: ["images/parkinson-signs-og.jpg"]
+image: "images/og-cabconnects.png"
+images: ["images/og-cabconnects.png"]
 ---
 
 ## Your free consultation has been scheduled
