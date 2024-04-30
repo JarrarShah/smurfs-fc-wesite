@@ -3,10 +3,10 @@ title: "Data Entry Services by CabConnects"
 date: 2024-03-08
 draft: false
 description: "CabConnects offers a wide range of data entry services tailored to enhance operational efficiency and reduce costs for your transport company."
-author: "ChatGPT"
-featuredImage: "images/data-entry.png"
-image: "images/data-entry.png"
-images: ["images/data-entry.png"]
+author: "Cab Connects"
+featuredImage: "images/data-entry.jpg"
+image: "images/data-entry.jpg"
+images: ["images/data-entry.jpg"]
 keywords: "Data Entry Services, CabConnects"
 ---
 

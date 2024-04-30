@@ -3,9 +3,9 @@ title: "General Data Protection Compliance by CabConnects"
 date: 2024-03-08
 draft: false
 description: "CabConnects ensures GDPR compliance to protect the personal data of customers and business contacts, adhering to the General Data Protection Regulation."
-featuredImage: "images/data-protection.png"
-image: "images/data-protection.png"
-images: ["images/data-protection.png"]
+featuredImage: "images/gdpr.jpg"
+image: "images/gdpr.jpg"
+images: ["images/gdpr.jpg"]
 ---
 
 ### General Data Protection Compliance by CabConnects

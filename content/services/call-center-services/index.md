@@ -4,8 +4,9 @@ date: 2024-03-08
 draft: false
 description: "CabConnents acts as an extension of your transport company, providing cost-effective custom solutions that improve operational efficiency and reduce labor costs. Explore our inbound call center solutions and other services."
 author: "Cab Connents"
-featuredImage: "images/call-center.png"
-image: "images/call-center.png"
+featuredImage: "images/call-center.jpg"
+image: "images/call-center.jpg"
+images: ["images/call-center.jpg"]
 keywords: "Call Center, Inbound Call Center, Lead Generation, Telemarketing, Surveys, Help Desk, Corporate Support, Data Cleansing, Order Fulfilment"
 ---
 

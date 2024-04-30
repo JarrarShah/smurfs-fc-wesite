@@ -6,6 +6,7 @@ description: "Discover how Cab Connects can revolutionize your taxi business ope
 author: "Cab Connects Marketing Team"
 featuredImage: "images/1.png"
 image: "images/1.png"
+images: ["images/1.png"]
 keywords: "Cab Connects, Taxi business operations, Taxi dispatching, Fleet management, Technology solutions"
 ---
 

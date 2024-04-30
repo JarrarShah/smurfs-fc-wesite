@@ -4,9 +4,9 @@ date: 2024-03-08
 draft: false
 description: "Cab Connents offers efficient taxi dispatch services tailored to enhance operational efficiency and reduce costs for your transport company."
 author: "ChatGPT"
-featuredImage: "images/taxi-dispatch.png"
-image: "images/taxi-dispatch.png"
-images: ["images/taxi-dispatch.png"]
+featuredImage: "images/taxi-dispatch.jpg"
+image: "images/taxi-dispatch.jpg"
+images: ["images/taxi-dispatch.jpg"]
 keywords: "Taxi Dispatch, Dispatch Services, Cab Connents"
 ---
 
