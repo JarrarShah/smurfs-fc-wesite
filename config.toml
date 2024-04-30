@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://cab-connects.com"
 title = "Cab Connects"
 
 languageCode = "en-us"
