@@ -1,25 +1,25 @@
 <section class="bg-dark">
     {{ $herobg := resources.Get "images/hero-bg.png" }}
     <div class="z-40 relative w-full bg-center bg-no-repeat bg-cover"
-        style="background-image: url('{{ $herobg.RelPermalink}}'); height: 80vh;">
-
+        style="background-image: url('{{ $herobg.RelPermalink}}');">
         <div class="mx-auto px-4 md:px-0 max-w-screen-xl text-center">
-
             <div class="flex justify-center">
                 <div class="w-full md:w-1/2 py-8">
-                    <h1 class="mb-4 mt-8 h1 tracking-tight leading-none text-secondary font-poppins">Quick Answers,
-                        Top-tier Experience</h1>
-                    <p class="mb-8 text-base font-normal text-gray-400">Experience instant quality service with Cab
-                        Connects. We answer calls promptly, reflecting your company's vibe and delivering the experience
-                        your customers expect. Book a call with Cab Connects for seamless, top-tier customer service.
+                    <h1 class="mb-4 mt-8 text-5xl font-bold tracking-tight leading-none text-secondary">Your Dedicated Outsourced <br>
+                        <span class="text-yellow-500">Cab Disptach </span>Team</h1>
+                    <h3 class="mb-4 mt-8 h3 tracking-tight leading-none text-secondary text-gray-400 font-poppins">
+                        Hire a team at a fraction of the cost.
+                    </h3>
+                    <p class="mb-8 text-base font-normal text-white">Outsource to the Pakistan and take advantage of
+                        our dedicated team of Experts. We’ll take care of all the back-end office facilities, IT,
+                        recruitment to HR and payroll too. You just focus on managing your top talents effectively.
                     </p>
                 </div>
             </div>
-            <div
-                class="flex pb-20 flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="#"
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="Contact"
                     class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                    Learn more
+                    Hire Us Now
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -27,7 +27,7 @@
                             clip-rule="evenodd"></path>
                     </svg>
                 </a>
-                <a href="#"
+                <!-- <a href="#"
                     class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-secondary rounded-lg border border-secondary hover:text-primary hover:border-primary focus:ring-4 focus:ring-gray-100">
                     <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
@@ -36,13 +36,20 @@
                         </path>
                     </svg>
                     Watch video
-                </a>
+                </a> -->
+            </div>
+            <div class="flex py-6 justify-center">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                    type="module"></script>
+
+                <dotlottie-player src="https://lottie.host/d63e1493-0750-43d2-b9d4-ea2af7e9cf30/semIpJr8Kf.json"
+                    background="transparent" speed="1" class="h-16" loop autoplay></dotlottie-player>
             </div>
             <!-- Taxi image for desktop -->
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
                 <div class="w-full md:w-1/2">
                     <div class="relative text-center z-40">
-                        {{ with resources.Get "images/cab-connects-taxi.png" }}
+                        {{ with resources.Get "images/taxi-101.png" }}
                         {{ $small := (.Resize "900x webp q100").RelPermalink }}
                         {{ $medium := (.Resize "1500x webp q100").RelPermalink }}
                         {{ $large := (.Resize "2000x webp q100").RelPermalink }}
@@ -56,13 +63,13 @@
                         {{ end }}
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Taxi image for mobile -->
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
                 <div class="w-full md:w-1/2">
                     <div class="relative text-center z-40">
-                        {{ with resources.Get "images/cab-connects-taxi.png" }}
+                        {{ with resources.Get "images/taxi-101.png" }}
                         {{ $small := (.Resize "900x webp q100").RelPermalink }}
                         {{ $medium := (.Resize "1500x webp q100").RelPermalink }}
                         {{ $large := (.Resize "2000x webp q100").RelPermalink }}
@@ -75,9 +82,9 @@
                         {{ end }}
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Taxi image for ipad -->
-            <div class="flex justify-center">
+            <!-- <div class="flex justify-center">
                 <div class="w-full md:w-1/2">
                     <div class="relative text-center z-40">
                         {{ with resources.Get "images/cab-connects-taxi.png" }}
@@ -92,9 +99,10 @@
                         {{ end }}
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- taxi image end -->
+
         </div>
     </div>
 </section>

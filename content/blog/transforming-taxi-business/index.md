@@ -6,6 +6,7 @@ description: "Discover how CabConnects helps taxi businesses optimize their comm
 author: "CabConnects Marketing Team"
 featuredImage: "images/1.png"
 image: "images/2.png"
+images: ["images/1.png"]
 keywords: "CabConnects, Taxi businesses, Call management, Dispatch services, Customer communication"
 ---
 

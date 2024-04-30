@@ -6,6 +6,7 @@ description: "Tired of long waiting queues during help calls or booking cab ride
 author: "Cab Connects SEO Team"
 featuredImage: "images/1.png"
 image: "images/2.png"
+images: ["images/2.png"]
 keywords: "Long waiting queues, Help calls, Booking cab rides, Outsource bookings, Dispatching, Cab Connects"
 ---
 
