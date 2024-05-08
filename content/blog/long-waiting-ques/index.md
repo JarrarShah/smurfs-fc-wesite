@@ -42,4 +42,4 @@ Outsourcing your bookings and dispatching to Cab Connects allows you to focus on
 
 Don't let long waiting queues tarnish your reputation or hinder your growth. Partner with Cab Connects and revolutionize the way you handle bookings and dispatching. Experience the difference today!
 
-[Contact us](/contact) to learn more about our services and take the first step towards a smoother, more efficient operation.
+[Contact us](/book-free-trial) to learn more about our services and take the first step towards a smoother, more efficient operation.

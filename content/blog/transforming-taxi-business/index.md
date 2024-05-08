@@ -42,4 +42,4 @@ As taxi businesses grow and evolve, their communication needs may change. CabCon
 
 In today's competitive taxi industry, effective communication is the key to success. With CabConnects as your communication partner, you can ensure that every call is answered promptly, every booking is handled efficiently, and every customer receives exceptional service. Don't risk missing out on valuable opportunities—partner with CabConnects and never miss a call again.
 
-[Contact us](/contact) to learn more about how CabConnects can optimize communication channels for your taxi business and ensure seamless customer interactions.
+[Contact us](/book-free-trial) to learn more about how CabConnects can optimize communication channels for your taxi business and ensure seamless customer interactions.
