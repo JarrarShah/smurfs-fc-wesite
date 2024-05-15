@@ -3,14 +3,14 @@ title: "Privacy Policy"
 date: 2023-04-10T11:10:36+08:00
 draft: false
 language: en
-description: Privacy policy
+description: Privacy policy Cab Connects
 image: "images/og-cabconnects.png"
 images: ["images/og-cabconnects.png"]
 ---
 
 ### 1. INTRODUCTION  
 
-This privacy notice provides you with details of how we collect and process your personal data through your use of our site [www.parkinsonsigns.co.uk](/). By providing us with your data, you warrant to us that you are over 13 years of age.
+This privacy notice provides you with details of how we collect and process your personal data through your use of our site [www.cab-connects.com](/). By providing us with your data, you warrant to us that you are over 13 years of age.
 
 iMobilize Ltd/Cab Connects ltd [is/am/are] the data controller and we are responsible for your personal data (referred to as “we”, “us” or “our” in this privacy notice)
 
@@ -50,7 +50,7 @@ Under the Privacy and Electronic Communications Regulations, we may send you mar
 
 Before we share your personal data with any third party for their own marketing purposes we will get your express consent.
 
-You can ask us or third parties to stop sending you marketing messages at any time [by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences] OR [by following the opt-out links on any marketing message sent to you or] OR by emailing us at support@parkinsonsigns.com at any time].
+You can ask us or third parties to stop sending you marketing messages at any time [by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences] OR [by following the opt-out links on any marketing message sent to you or] OR by emailing us at info@cab-connects.com at any time].
 
 If you opt out of receiving marketing communications this opt-out does not apply to personal data provided as a result of other transactions, such as purchases, warranty registrations etc. 
 
@@ -110,7 +110,7 @@ You can see more about these rights at:
 
 https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/
 
-If you wish to exercise any of the rights set out above, please email us at support@parkinsonsigns.com.
+If you wish to exercise any of the rights set out above, please email us at info@cab-connects.com.
 
 You will not have to pay a fee to access your personal data (or to exercise any of the other rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive or refuse to comply with your request in these circumstances.
 
@@ -130,11 +130,11 @@ Full name of legal entity: Andre Barrett
 
 Job Title: Operations Director
 
-Email address: support@parkinsonsigns.com
+Email address: info@cab-connects.com
 
 Postal address: Kemp House, 160 City Road, London, EC1V 2NX
 
-It is very important that the information we hold about you is accurate and up to date. Please let us know if at any time your personal information changes by emailing us at support@parkinsonsigns.com.  
+It is very important that the information we hold about you is accurate and up to date. Please let us know if at any time your personal information changes by emailing us at info@cab-connects.com.  
 
 Services will be provided by:
 Cab Connects
