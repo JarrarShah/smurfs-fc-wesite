@@ -9,22 +9,22 @@ images: ["images/og-cabconnects.png"]
 ---
 
 ### BINDING EFFECT
-This agreement (“Agreement”) is a binding agreement between you (“you”) and iMobilize Ltd, trading as Cab Connects, (“Cab Connects,” “Company,” “we” or “us”). Cab Connects is an Alias under the private limited company iMobilize Ltd. By using the site at [www.parkinsonsigns.co.uk](/).(the ‘Site’) or any information, materials, images, graphics, data, text, files, links, software, messages, communications, content, organization, design, compilation, magnetic translation, digital conversion, HTML, XML, Java code and other content related to the Site (collectively ‘Content’) or services provided in connection with the Site (the ‘Service’), you agree to abide by these Terms of Use, as the Company may amend them from time to time in its sole discretion. YOU AGREE THAT BY USING THE SERVICE YOU REPRESENT THAT YOU ARE AT LEAST 18 YEARS OLD AND THAT YOU ARE LEGALLY ABLE TO ENTER INTO THIS AGREEMENT.
+This agreement (“Agreement”) is a binding agreement between you (“you”) and iMobilize Ltd, trading as Cab Connects, (“Cab Connects,” “Company,” “we” or “us”). Cab Connects is an Alias under the private limited company iMobilize Ltd. By using the site at [www.cab-connects.com](/).(the ‘Site’) or any information, materials, images, graphics, data, text, files, links, software, messages, communications, content, organization, design, compilation, magnetic translation, digital conversion, HTML, XML, Java code and other content related to the Site (collectively ‘Content’) or services provided in connection with the Site (the ‘Service’), you agree to abide by these Terms of Use, as the Company may amend them from time to time in its sole discretion. YOU AGREE THAT BY USING THE SERVICE YOU REPRESENT THAT YOU ARE AT LEAST 18 YEARS OLD AND THAT YOU ARE LEGALLY ABLE TO ENTER INTO THIS AGREEMENT.
 
 
 ### REFUND POLICY / CANCELLATION
-Cab Connects is committed to providing each customer with exceptional service. We want you to feel comfortable about transacting business with us. Due to the nature of our business and the accessibility of our products some of our programs have different refund and cancellation policies. Please find the complete details in the “refund policy” section of www.parkinsonsigns.co.uk.
-If you are not completely satisfied with the product you have paid for, you may contact [support@parkinsonsigns.com]() and we will look into your request.
+Cab Connects is committed to providing each customer with exceptional service. We want you to feel comfortable about transacting business with us. Due to the nature of our business and the accessibility of our products some of our programs have different refund and cancellation policies. Please find the complete details in the “refund policy” section of www.cab-connects.com.
+If you are not completely satisfied with the product you have paid for, you may contact [info@cab-connects.com]() and we will look into your request.
 
 
 
 ### PRIVACY POLICY
-The company respects your privacy and permits you to control the treatment of your personal information. A complete statement of the Company’s current privacy policy (the “Privacy Policy”) can be found on the privacy policy section on [www.parkinsonsigns.co.uk](/).
+The company respects your privacy and permits you to control the treatment of your personal information. A complete statement of the Company’s current privacy policy (the “Privacy Policy”) can be found on the privacy policy section on [www.cab-connects.com](/).
 
 
 
 ### PROGRAM-SPECIFIC TERMS AND CONDITIONS
-These terms are generalized for full terms and conditionals for a specific program you purchase please request them at [support@parkinsonsigns.com](/).Please note upon purchase the agreement must be signed on part of the client.
+These terms are generalized for full terms and conditionals for a specific program you purchase please request them at [info@cab-connects.com](/).Please note upon purchase the agreement must be signed on part of the client.
 
 
 ### LICENSE

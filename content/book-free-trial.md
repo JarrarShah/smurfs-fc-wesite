@@ -5,7 +5,7 @@ draft: false
 language: en
 image: "images/og-cabconnects.png"
 images: ["images/og-cabconnects.png"]
-description: ""
+description: "Experience hassle-free Cab Dispatch with CabConnects - Try a 2-day trial now!"
 keywords: ""
 ---
 
