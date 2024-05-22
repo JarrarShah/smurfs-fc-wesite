@@ -18,7 +18,7 @@ CabConnects acts as an extension of your transport company, providing cost-effec
 
 In addition to handling your inbound calls, we can also assist you with data collection and entry. We can assist with email responses, future bookings/reservations as well as capturing the data from voice recordings. Our agents are trained to handle all types of office support functions including data entry, form processing, and data recording. Need help with a project? Just ask us.
 
-[REQUEST A QUOTE](link_to_request_quote)
+[REQUEST A QUOTE](/book-free-trial)
 
 #### Online Data Entry
 
