@@ -18,7 +18,7 @@ Welcome to Cab Connents, your trusted partner for efficient taxi dispatch servic
 
 Beyond managing your inbound calls, we excel in data collection and entry. From handling email responses to capturing data from voice recordings, our skilled agents manage various office support functions, including data entry and form processing. Let us assist you in your projects with precision and professionalism.
 
-[REQUEST A QUOTE](link_to_request_quote)
+[REQUEST A QUOTE](/book-free-trial)
 
 #### Dispatch Accuracy and Quality Assurance
 
